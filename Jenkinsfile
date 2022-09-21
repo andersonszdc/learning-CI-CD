@@ -7,6 +7,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'cd web-app'
+                sh 'npm init'
                 sh 'npm install'
             }
         }
