@@ -7,7 +7,6 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'cd web-app'
-                sh 'cd pasta-inexistente'
                 sh 'npm install'
             }
         }
