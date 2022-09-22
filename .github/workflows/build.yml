@@ -16,5 +16,5 @@ jobs:
         with:
           node-version: 16.17.0
       - run: cd web-app
-      - run: npm ci
+      - run: npm install
       - run: npm run build
